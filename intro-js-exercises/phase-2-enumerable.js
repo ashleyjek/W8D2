@@ -36,7 +36,8 @@ Array.prototype.myReduce = function(callback, initialValue){
     let accum = 0;
     if (!initialValue){
         accum = this.shift();
-    }else{
+    }
+    else {
         accum = initialValue;
     }
     this.myEach( function(el) {
